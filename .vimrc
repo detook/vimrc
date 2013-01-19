@@ -2,6 +2,10 @@
  " MAPS
  map <C-n> :NERDTreeToggle<CR>
 
+ " Visual
+ syntax on
+ colorscheme desert
+
  " VUNDLE
  set nocompatible               " be iMproved
  filetype off                   " required!
@@ -23,6 +27,7 @@
   Bundle 'SuperTab'
   Bundle 'minibufexpl.vim'
   Bundle 'taglist.vim'
+  Bundle 'sessionman.vim'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
