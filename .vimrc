@@ -19,6 +19,8 @@
   Bundle 'joonty/vim-phpqa.git'
   Bundle 'phpqa'
   Bundle 'The-NERD-tree'
+  Bundle 'php.vim'
+  Bundle 'SuperTab'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
