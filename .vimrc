@@ -2,6 +2,7 @@
  " MAPS
  map <C-n> :NERDTreeToggle<CR>
 
+ " VUNDLE
  set nocompatible               " be iMproved
  filetype off                   " required!
 
@@ -16,6 +17,8 @@
  "
  " original repos on github
   Bundle 'joonty/vim-phpqa.git'
+  Bundle 'phpqa'
+  Bundle 'The-NERD-tree'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
