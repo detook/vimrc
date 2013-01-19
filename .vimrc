@@ -21,6 +21,8 @@
   Bundle 'The-NERD-tree'
   Bundle 'php.vim'
   Bundle 'SuperTab'
+  Bundle 'minibufexpl.vim'
+  Bundle 'taglist.vim'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -52,3 +54,6 @@
  
  " NERDTREE
  let NERDTreeShowHidden=1
+
+ " MINIBUFFER
+ let g:miniBufExplMapWindowNavArrows = 1  
