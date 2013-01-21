@@ -6,6 +6,9 @@
  syntax on
  colorscheme desert
 
+ " Status Line
+ set statusline=%{fugitive#statusline()}
+
  " VUNDLE
  set nocompatible               " be iMproved
  filetype off                   " required!
@@ -28,6 +31,8 @@
   Bundle 'minibufexpl.vim'
   Bundle 'taglist.vim'
   Bundle 'sessionman.vim'
+  Bundle 'fugitive.vim'
+
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
