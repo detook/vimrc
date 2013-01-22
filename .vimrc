@@ -32,7 +32,7 @@
   Bundle 'taglist.vim'
   Bundle 'sessionman.vim'
   Bundle 'fugitive.vim'
-
+  Bundle 'PHPUnit-QF'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
 " Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
