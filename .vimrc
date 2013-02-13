@@ -6,6 +6,15 @@
  syntax on
  colorscheme desert
 
+ " show line numbers
+ set number
+
+ " Indents
+ set smartindent
+ set tabstop=4
+ set shiftwidth=4
+ set expandtab
+
  " Status Line
  set statusline=%{fugitive#statusline()}
 
@@ -67,3 +76,4 @@
 
  " MINIBUFFER
  let g:miniBufExplMapWindowNavArrows = 1  
+ let g:miniBufExplMapCTabSwitchBufs = 1 
