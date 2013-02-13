@@ -54,7 +54,7 @@
 " Bundle 'L9'
 " Bundle 'FuzzyFinder'
  " non github repos
- "Bundle 'git://git.wincent.com/command-t.git'
+ Bundle 'git://git.wincent.com/command-t.git'
  " ...
 
  filetype plugin indent on     " required!
