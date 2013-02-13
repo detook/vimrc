@@ -9,6 +9,10 @@
  " show line numbers
  set number
 
+ " command tab autocomplete - human approach
+ set wildmode=longest,list,full
+ set wildmenu
+
  " Indents
  set smartindent
  set tabstop=4
