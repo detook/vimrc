@@ -46,6 +46,8 @@
   Bundle 'sessionman.vim'
   Bundle 'fugitive.vim'
   Bundle 'phpunit'
+  Bundle 'XDebug-DBGp-client-for-PHP'
+  Bundle 'phpfolding.vim'
 " Bundle 'PHPUnit-QF'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
