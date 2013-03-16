@@ -3,8 +3,13 @@
  map <C-n> :NERDTreeToggle<CR>
 
  " Visual
- syntax on
- colorscheme desert
+ syntax enable
+ if has('gui_running')
+    set background=light
+    colorscheme solorized
+ else
+    colorscheme desert
+ endif
 
  " show line numbers
  set number
