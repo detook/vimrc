@@ -6,7 +6,7 @@
  syntax enable
  if has('gui_running')
     set background=light
-    colorscheme solorized
+    colorscheme solarized
  else
     colorscheme desert
  endif
@@ -21,11 +21,16 @@
  " Indents
  set smartindent
  set tabstop=4
+ set softtabstop=4
  set shiftwidth=4
  set expandtab
 
  " Status Line
  set statusline=%{fugitive#statusline()}
+
+ " Highlight 80 symbols
+ highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+ match OverLength /\%81v.\+/
 
  " VUNDLE
  set nocompatible               " be iMproved
