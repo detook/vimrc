@@ -7,6 +7,7 @@
  if has('gui_running')
     set background=light
     colorscheme solarized
+    set guifont=UbuntuMono\ 14
  else
     colorscheme desert
  endif
@@ -30,7 +31,7 @@
 
  " Highlight 80 symbols
  highlight OverLength ctermbg=red ctermfg=white guibg=#592929
- match OverLength /\%81v.\+/
+ match OverLength /\%121v.\+/
 
  " VUNDLE
  set nocompatible               " be iMproved
@@ -58,6 +59,8 @@
   Bundle 'phpunit'
   Bundle 'XDebug-DBGp-client-for-PHP'
   Bundle 'phpfolding.vim'
+  Bundle 'phpcomplete.vim'
+  Bundle 'ctrlp.vim'
 " Bundle 'PHPUnit-QF'
 " Bundle 'tpope/vim-fugitive'
 " Bundle 'Lokaltog/vim-easymotion'
@@ -67,7 +70,6 @@
 " Bundle 'L9'
 " Bundle 'FuzzyFinder'
  " non github repos
- Bundle 'git://git.wincent.com/command-t.git'
  " ...
 
  filetype plugin indent on     " required!
@@ -94,3 +96,6 @@
  " MINIBUFFER
  let g:miniBufExplMapWindowNavArrows = 1  
  let g:miniBufExplMapCTabSwitchBufs = 1 
+
+ " CtrlP
+ set runtimepath^=~/.vim/bundle/ctrlp.vim
